@@ -276,32 +276,31 @@ body {
     background-color: lightgray; 
 }
 
-.nav-link { 
-    text-decoration: none;
-}
+.nav-link { text-decoration: none; }
 
-.nav-link:hover { color:red; }
+.nav-link:hover { color: red; }
 
 
 @media (min-width : 900px) {
-    
+    }
     
     .nav-list li:nth-child(even) {
         background-color: ghostwhite;
         
     }
     
-    .nav-list li:hover {
-        background-color: lightgray; 
+    .nav-list li {
+        transition: background .5s ease 0.02s;  
     }
 
+    .nav-list li:hover {
+        background: lightgray;   
+    }
+git 
 }
 
 /* main content */
 
-@media ( min-width : 900px ) {
-    
-}
 
 /* ==========
    Components
